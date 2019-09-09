@@ -1,0 +1,63 @@
+:root {
+  --font-dark: #181818;
+  --font-light: #3a3a3a;
+  --font-b-dark: #377dff;
+  --font-b-light: rgba(55, 125, 255, 0.1);
+}
+
+.f-light {
+  color: var(--font-light);
+}
+
+.f-md {
+  font-size: 0.9em;
+}
+
+.no-top-pad {
+  padding-top: 0!important;
+}
+
+body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  color: var(--font-dark);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.brand-logo {
+  height: 30px;
+  width: auto;
+  margin-bottom: 4px;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: var(--font-b-dark);
+}
+
+.hero-desc {
+  padding-right: 1em;
+}
+.hero-image {
+  position: relative;
+  width: 600px;
+  height: 450px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+.hero-image a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.main-hero-0 {
+  fill: #377dff;
+}
